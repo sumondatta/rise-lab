@@ -1,4 +1,4 @@
-/* Add or edit news links in index.html. */
+/* Add or edit news links in news.html. */
 function initializeNews(section) {
   if (!section) return;
   const visibleLimit = 10;
