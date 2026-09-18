@@ -25,6 +25,13 @@
 <link href="https://fonts.googleapis.com/css2?family=Sora:wght@400;500;600;700&family=Inter:wght@400;500;600&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet" />
 
 <link rel="stylesheet" href="assets/site.css" />
+<style>
+  /* Keep bullets visible with both the original and newer shared styles. */
+  #news .news-list { list-style: disc outside; padding-left: 1.5rem; }
+  #news .news-item { display: list-item; padding-left: 0.25rem; }
+  #news .news-title { display: inline; }
+  #news .news-item::marker { color: var(--accent); }
+</style>
 </head>
 <body>
 <a class="skip-link" href="#main">Skip to content</a>
@@ -64,8 +71,11 @@
     <p class="eyebrow">From the lab</p>
     <h1 class="sec-title" id="news-title">News &amp; Events</h1>
     <ul class="news-list" id="news-list">
-      <li class="news-item" id="postdoc-recruitment-2026" data-date="2026-09-18" style="display:block;">
-        <h2 class="news-title">RISE Lab is hiring a postdoctoral researcher in evapotranspiration and crop water demand forecasting</h2>
+      <!-- NEWS ITEM: Copy this entire li block for another announcement.
+           Update data-date, the time date/text, the headline, and both post URLs.
+           Use YYYY-MM-DD for data-date and datetime. Newest items display first. -->
+      <li class="news-item" data-date="2026-09-18">
+        <h2 class="news-title"><time datetime="2026-09-18">September 18, 2026</time>: RISE Lab is hiring a postdoctoral researcher in evapotranspiration and crop water demand forecasting</h2>
         <p class="news-links">
           <!-- Replace only the two placeholder values below with your individual post URLs. -->
           <a data-post-url="REPLACE_WITH_LINKEDIN_POST_URL" target="_blank" rel="noopener noreferrer" hidden>LinkedIn</a>
