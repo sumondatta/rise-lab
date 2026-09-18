@@ -18,7 +18,7 @@
 <title>News &amp; Events | RISE Lab | Sumon Datta</title>
 <meta name="description" content="News &amp; Events from Sumon Datta and the Research in Irrigation Scheduling and Engineering Lab at Oklahoma State University." />
 
-<!-- Edit this page directly. Shared styles: assets/site.css. Keep the Google Analytics tag on every page. -->
+<!-- Edit news items directly below. Keep the Google Analytics tag. -->
 
 <link rel="preconnect" href="https://fonts.googleapis.com" />
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
@@ -63,7 +63,16 @@
   <div class="wrap">
     <p class="eyebrow">From the lab</p>
     <h1 class="sec-title" id="news-title">News &amp; Events</h1>
-    <ul class="news-list" id="news-list"></ul>
+    <ul class="news-list" id="news-list">
+      <li class="news-item" id="postdoc-recruitment-2026" data-date="2026-09-18" style="display:block;">
+        <h2 class="news-title">RISE Lab is hiring a postdoctoral researcher in evapotranspiration and crop water demand forecasting</h2>
+        <p class="news-links">
+          <!-- Replace only the two placeholder values below with your individual post URLs. -->
+          <a data-post-url="REPLACE_WITH_LINKEDIN_POST_URL" target="_blank" rel="noopener noreferrer" hidden>LinkedIn</a>
+          <a data-post-url="REPLACE_WITH_FACEBOOK_POST_URL" target="_blank" rel="noopener noreferrer" hidden>Facebook</a>
+        </p>
+      </li>
+    </ul>
     <details class="news-archive" id="news-archive" hidden>
       <summary><span class="when-closed">See more</span><span class="when-open">See less</span><span id="news-older-count"></span></summary>
       <ul class="news-list" id="news-older"></ul>
@@ -95,9 +104,23 @@
         </div>
       </div>
     </div>
-    <div class="colophon">© 2026 Sumon Datta, Ph.D., E.I. · RISE Lab, Oklahoma State University<br>Updated September 17, 2026.</div>
+    <div class="colophon">© 2026 Sumon Datta, Ph.D., E.I. · RISE Lab, Oklahoma State University<br>Updated September 18, 2026.</div>
   </div>
 </footer>
+<script>
+  // Hide unfinished links. A link appears once its placeholder is replaced with an HTTPS URL.
+  document.querySelectorAll('[data-post-url]').forEach(function (link) {
+    try {
+      var url = new URL(link.getAttribute('data-post-url'));
+      if (url.protocol === 'https:') {
+        link.href = url.href;
+        link.hidden = false;
+      }
+    } catch (error) {
+      // Placeholder values are intentionally left hidden.
+    }
+  });
+</script>
 <script src="assets/news.js"></script>
 </body>
 </html>
