@@ -1,0 +1,22 @@
+RISE Lab website update: SITAS-IL and October 2026 CV
+
+This is an update package for the existing GitHub Pages website.
+1. Extract the ZIP.
+2. Upload the nine HTML files to the root of sumondatta/rise-lab, replacing the existing versions.
+3. Upload assets/CV_main.pdf into the existing assets folder, replacing the old PDF.
+4. Commit the changes and wait for the normal GitHub Pages deployment.
+Do not delete other website files or change the Pages publishing settings.
+No news.json, Python script, or new GitHub workflow is required.
+
+Changes:
+- Added SITAS-IL as award 26: $39,999,752 total project award and approximately $250,000 for the program; Co-PI; October 2026 to September 2031.
+- Career totals: 26 awards, $54.39M total project funding, approximately $2.99M for the program.
+- OSU totals: 23 awards, $53.34M total project funding, approximately $2.51M for the program.
+- Updated homepage citations to 570, as of October 1, 2026, as reported in the CV.
+- Replaced the downloadable CV and updated all nine footer labels to October 2026.
+- Preserved the live News & Events entries, dates, bullets, and LinkedIn/Facebook URLs.
+- Preserved Google Analytics G-CRK8LJ3YY7 on all nine pages.
+
+These files were prepared from the live website on October 15, 2026 (America/Chicago).
+If you edit the live files after that date, merge these updates with your newer changes before uploading.
+The supplied PDF is unchanged. Its filename is dated October 15; its internal Last Updated header says October 16, 2026.
