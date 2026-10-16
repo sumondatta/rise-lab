@@ -31,6 +31,8 @@
   #news .news-item { display: list-item; padding-left: 0.25rem; }
   #news .news-title { display: inline; }
   #news .news-item::marker { color: var(--accent); }
+  #news .news-summary { max-width: 80ch; margin: 10px 0 12px; line-height: 1.7; }
+  #news .news-summary p { margin: 0 0 10px; }
 </style>
 </head>
 <body>
@@ -71,6 +73,22 @@
     <p class="eyebrow">From the lab</p>
     <h1 class="sec-title" id="news-title">News &amp; Events</h1>
     <ul class="news-list" id="news-list">
+      <!-- SITAS-IL FUNDING ANNOUNCEMENT -->
+      <li class="news-item" data-date="2026-10-15">
+        <h2 class="news-title"><time datetime="2026-10-15">October 15, 2026</time>: <a href="https://sumondatta.github.io/rise-lab/index.html">RISE Lab</a> at Oklahoma State University joins K-State's new U.S. Department of State $40M Feed the Future Innovation Lab on sustainable intensification led by Dr. Vara Prasad.</h2>
+        <div class="news-summary">
+          <p>The U.S. Department of State announced eight Feed the Future Innovation Labs on 15 October, and Oklahoma State University is a partner on one of them. The Feed the Future Sustainable Intensification of Targeted Agricultural Systems Innovation Lab, known as SITAS-IL, is led by Kansas State University and directed by Dr. Vara Prasad. It will work in eight countries across the Indo-Pacific, Central America and the Lobito Corridor.</p>
+          <p>SITAS-IL is organized around five research areas: crop productivity and farming systems, water use, fertilizer and soil, artificial intelligence and smart sensors, and human and institutional capacity building. Two of those overlap directly with the work going on in the RISE Lab. My group will work on the Water Productivity Consortium.</p>
+          <p>#FeedTheFuture #Irrigation #OklahomaState</p>
+        </div>
+        <p class="news-links">
+          <!-- SITAS SOCIAL POSTS: Replace these placeholder values with this announcement's post URLs. -->
+          <a data-post-url="REPLACE_WITH_SITAS_LINKEDIN_POST_URL" target="_blank" rel="noopener noreferrer" hidden>LinkedIn</a>
+          <a data-post-url="REPLACE_WITH_SITAS_FACEBOOK_POST_URL" target="_blank" rel="noopener noreferrer" hidden>Facebook</a>
+          <a href="https://www.k-state.edu/news/articles/2026/10/feed-the-future-innovation-labs-advance-global-food-security.html" target="_blank" rel="noopener noreferrer">KSU Press Release</a>
+          <a href="https://www.state.gov/releases/office-of-the-spokesman/2026/10/state-department-announces-feed-the-future-innovation-labs-to-support-agriculture-research/" target="_blank" rel="noopener noreferrer">U.S. Department of State Release</a>
+        </p>
+      </li>
       <!-- NEWS ITEM: Copy this entire li block for another announcement.
            Update data-date, the time date/text, the headline, and both post URLs.
            Use YYYY-MM-DD for data-date and datetime. Newest items display first. -->
